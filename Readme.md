@@ -50,7 +50,8 @@ client = MongoClient('mongodb://your-mongodb-url:27017/')
 
 ## Screenshots
 
-_(Coming Soon!)_
+![Screenshot 2025-02-13 022506](https://github.com/user-attachments/assets/4c54fba1-89e5-498a-8e02-2a6c9900a0c4)
+
 
 ## Author
 
