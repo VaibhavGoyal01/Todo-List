@@ -1,71 +1,57 @@
-To-Do List Application
+# To-Do List Application
 
-This is a simple To-Do List Application built using Python, Tkinter, and MongoDB. It provides functionalities to add, remove, and mark tasks as complete while storing them in a MongoDB database.
+A simple To-Do List Application built using Python, Tkinter, and MongoDB. This application allows users to add, remove, and mark tasks as complete while storing them in a MongoDB database for persistent storage.
 
-Features
+## Features
 
-Add tasks with Due Date and Priority
+- Add tasks with Due Date and Priority
+- Remove selected tasks from the list
+- Mark tasks as completed
+- MongoDB integration for persistent storage
+- Scrollable task list for better usability
 
-Remove selected tasks from the list
-
-Mark tasks as completed
-
-MongoDB integration for persistent storage
-
-Scrollable task list for better usability
-
-Prerequisites
+## Prerequisites
 
 Before running the application, ensure you have the following installed:
 
-Python 3
+- **Python 3**
+- **MongoDB** (Ensure MongoDB server is running locally or use a remote connection)
+- Required Python packages:
 
-MongoDB (Ensure MongoDB server is running locally or use a remote connection)
+  ```sh
+  pip install pymongo tk
+  ```
 
-Required Python packages:
+## How to Run the Application
 
-pip install pymongo tk
+1. Clone this repository or download the `main.py` script.
+2. Ensure your MongoDB server is running.
+3. Run the application using:
 
-How to Run the Application
+   ```sh
+   python todo_list.py
+   ```
 
-Clone this repository or download the todo_list.py script.
+## MongoDB Configuration
 
-Ensure your MongoDB server is running.
+The application connects to a MongoDB instance running on `localhost:27017`. If you are using a remote MongoDB server, update the following line in `main.py`:
 
-Run the application using:
-
-python todo_list.py
-
-MongoDB Configuration
-
-The application connects to a MongoDB instance running on localhost:27017. If you are using a remote MongoDB server, update the following line in todo_list.py:
-
+```python
 client = MongoClient('mongodb://your-mongodb-url:27017/')
+```
 
-Usage Instructions
+## Usage Instructions
 
-Enter a task along with its due date and priority.
+1. Enter a task along with its due date and priority.
+2. Click **Add Task** to store it in the database.
+3. Select a task from the list and click **Mark as Complete** to update its status.
+4. Select a task and click **Remove Task** to delete it.
+5. The list automatically refreshes after each action.
 
-Click Add Task to store it in the database.
+## Screenshots
 
-Select a task from the list and click Mark as Complete to update its status.
+_(Coming Soon!)_
 
-Select a task and click Remove Task to delete it.
+## Author
 
-The list automatically refreshes after each action.
-
-Screenshots
-
-Coming Soon!
-
-License
-
-This project is licensed under the MIT License.
-
-Author
-
-Developed by Vaibhav Goyal
-
-Contributions
-
-Feel free to contribute by submitting issues or pull requests!
+Developed by **Vaibhav Goyal**
