@@ -50,12 +50,19 @@ client = MongoClient('mongodb://your-mongodb-url:27017/')
 
 ## Screenshots
 ### Screenshots of Application
-![Screenshot 2025-02-13 022506](https://github.com/user-attachments/assets/64da2739-5b38-4123-bc61-103710ff2db0)
-![Screenshot 2025-02-13 022454](https://github.com/user-attachments/assets/11ff0e91-6e9c-440c-b675-68ddecd88d0e)
-![Screenshot 2025-02-13 022445](https://github.com/user-attachments/assets/5c475ca3-dde5-4aa9-ae73-f0a3c2e799e4)
-![Screenshot 2025-02-13 022252](https://github.com/user-attachments/assets/aef39d67-0af3-4958-8cf7-de87ce27ad79)
+![Screenshot 2025-02-13 022252](https://github.com/user-attachments/assets/6899afe5-5817-4b6f-9bcc-05070fae09f1)
+![Screenshot 2025-02-13 022445](https://github.com/user-attachments/assets/33169b76-7ba8-44f7-bed2-47a7c8221c0d)
+![Screenshot 2025-02-13 022454](https://github.com/user-attachments/assets/ec74554a-2b41-47e4-b77b-a187da7d8e49)
+![Screenshot 2025-02-13 022506](https://github.com/user-attachments/assets/15a518ec-b500-4d09-9ef6-a55b9b1fea47)
+
+
+
 ### Screenshots of MongoDB
 ![image](https://github.com/user-attachments/assets/c46da30a-7f16-4b79-bd8b-cc21ba47b80a)
+
+###Video: 
+
+https://github.com/user-attachments/assets/f94b0153-48f5-4165-8b55-568412e4d129
 
 
 ## Author
