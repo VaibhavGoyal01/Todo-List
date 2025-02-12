@@ -49,8 +49,13 @@ client = MongoClient('mongodb://your-mongodb-url:27017/')
 5. The list automatically refreshes after each action.
 
 ## Screenshots
-
-![Screenshot 2025-02-13 022506](https://github.com/user-attachments/assets/4c54fba1-89e5-498a-8e02-2a6c9900a0c4)
+### Screenshots of Application
+![Screenshot 2025-02-13 022506](https://github.com/user-attachments/assets/64da2739-5b38-4123-bc61-103710ff2db0)
+![Screenshot 2025-02-13 022454](https://github.com/user-attachments/assets/11ff0e91-6e9c-440c-b675-68ddecd88d0e)
+![Screenshot 2025-02-13 022445](https://github.com/user-attachments/assets/5c475ca3-dde5-4aa9-ae73-f0a3c2e799e4)
+![Screenshot 2025-02-13 022252](https://github.com/user-attachments/assets/aef39d67-0af3-4958-8cf7-de87ce27ad79)
+### Screenshots of MongoDB
+![image](https://github.com/user-attachments/assets/c46da30a-7f16-4b79-bd8b-cc21ba47b80a)
 
 
 ## Author
